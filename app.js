@@ -15,6 +15,7 @@ let inventoryNew3 = [...inventory];                               //using the sp
 let inventoryNew4 = [...inventory];                               //using the spread parameter to create copy of array
 let inventoryNew5 = [...inventory];                               //using the spread parameter to create copy of array
 let inventoryNew6 = [...inventory];                               //using the spread parameter to create copy of array
+let inventoryNew7 = [...inventory];                               //using the spread parameter to create copy of array
 
 
 // 1. Replacing the last two products with the first two products
@@ -37,3 +38,6 @@ console.log(inventoryNew5.copyWithin(0, 1, 4));
 
 // 7. Reorganizing Stock by copying all the elements after keyboard to beginning
 console.log(inventoryNew6.copyWithin(0, 3, 6));
+
+// 8. Duplicating first three inventory to last three positions
+console.log(inventoryNew7.copyWithin(3, 0, 3));
