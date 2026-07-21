@@ -13,6 +13,7 @@ let inventoryNew1 = [...inventory];                               //using the sp
 let inventoryNew2 = [...inventory];                               //using the spread parameter to create copy of array
 let inventoryNew3 = [...inventory];                               //using the spread parameter to create copy of array
 let inventoryNew4 = [...inventory];                               //using the spread parameter to create copy of array
+let inventoryNew5 = [...inventory];                               //using the spread parameter to create copy of array
 
 
 // 1. Replacing the last two products with the first two products
@@ -29,3 +30,6 @@ console.log(inventoryNew3.copyWithin(2, 0, 4));
 
 // 5. Replacing the last two products with the products starting from index 2
 console.log(inventoryNew4.copyWithin(2, 4, 6));
+
+// 6. Overwriting the elements ta index 1-3 to beginning of inventory
+console.log(inventoryNew5.copyWithin(0, 1, 4));
